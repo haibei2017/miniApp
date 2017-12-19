@@ -10,7 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.6.6",
 	"appid": "wx97b3e5961576961e",
-	"projectname": "%E5%95%86%E5%9F%8E",
+	"projectname": "shop",
 	"condition": {
 		"search": {
 			"current": -1,
