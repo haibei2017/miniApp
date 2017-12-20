@@ -8,5 +8,15 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "list":[
+      {
+        "text":"首页"
+      },
+      {
+        "text":"分类"
+      }
+    ]
   }
 }
