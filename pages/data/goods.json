@@ -1,0 +1,112 @@
+{
+  "resultCode": 2000,
+  "resultMsg": "成功",
+  "data": {
+    "goodsList": [
+      {
+        "id": 48616,
+        "goodsPic": "http://club.xingzhuangmall.com:8001/p4/ShoppingMall/shop/2017/11/16/hot/1510816822413/7850-pic20161228201455641543.jpg",
+        "gbName": "MUZTAGA慕士塔格",
+        "goodsName": "MUZTAGA/慕士塔格  户外多功能秋冬可套穿保暖防风抓绒衣服  男女",
+        "goodsNo": "MG77059M/MG77060W",
+        "goodsVipPrice": 103,
+        "goodsTagPrice": 258,
+        "goodsRebateprice": 30.8,
+        "rebatePoints": null,
+        "isOnshelves": null,
+        "cateName": null
+      },
+      {
+        "id": 29596,
+        "goodsPic": "http://club.xingzhuangmall.com:8001/p4/ShoppingMall/shop/2017/11/16/hot/1510813523846/5046-pic20160315190820.jpg",
+        "gbName": "PELLIOT/伯希和",
+        "goodsName": "PELLIOT/伯希和  户外皮肤衣男女夏超轻超薄透气防晒衣服情侣皮肤风衣",
+        "goodsNo": "1732/1733",
+        "goodsVipPrice": 159,
+        "goodsTagPrice": 628,
+        "goodsRebateprice": 27.03,
+        "rebatePoints": null,
+        "isOnshelves": null,
+        "cateName": null
+      },
+      {
+        "id": 48355,
+        "goodsPic": "http://club.xingzhuangmall.com:8001/p4/ShoppingMall/shop/2017/11/16/hot/1510816580883/166-pic20160905174721847204.jpg",
+        "gbName": "SAIDANHU/赛丹狐",
+        "goodsName": "SAIDANHU/赛丹狐   情侣款  运动套装休闲衣套装春秋装韩版外套男装开衫衣服潮",
+        "goodsNo": "222",
+        "goodsVipPrice": 128,
+        "goodsTagPrice": 298,
+        "goodsRebateprice": 17.64,
+        "rebatePoints": null,
+        "isOnshelves": null,
+        "cateName": null
+      },
+      {
+        "id": 47708,
+        "goodsPic": "http://club.xingzhuangmall.com:8001/p4/ShoppingMall/shop/2017/11/16/hot/1510815855603/893-pic20160809085005844085.jpg",
+        "gbName": "CENPIN/诚品",
+        "goodsName": "CENPIN/诚品  新款紧身健身服男 跑步 瑜伽训练套装女春秋显瘦情侣运动衣服",
+        "goodsNo": "83711",
+        "goodsVipPrice": 188,
+        "goodsTagPrice": 738,
+        "goodsRebateprice": 21.2,
+        "rebatePoints": null,
+        "isOnshelves": null,
+        "cateName": null
+      },
+      {
+        "id": 29523,
+        "goodsPic": "http://club.xingzhuangmall.com:8001/p4/ShoppingMall/shop/2017/11/16/hot/1510813482719/3248-pic20160315104759.jpg",
+        "gbName": "PELLIOT/伯希和",
+        "goodsName": "PELLIOT/伯希和  户外皮肤衣女 春夏透气超轻薄防晒衣服速干皮肤风衣",
+        "goodsNo": "1794",
+        "goodsVipPrice": 229,
+        "goodsTagPrice": 659,
+        "goodsRebateprice": 36.64,
+        "rebatePoints": null,
+        "isOnshelves": null,
+        "cateName": null
+      },
+      {
+        "id": 48619,
+        "goodsPic": "http://club.xingzhuangmall.com:8001/p4/ShoppingMall/shop/2017/11/16/hot/1510816831978/5161-pic20161130214125338747.jpg",
+        "gbName": "MUZTAGA慕士塔格",
+        "goodsName": "MUZTAGA/慕士塔格 户外男款软壳夹克 长袖防风上衣外套衣服",
+        "goodsNo": "MG77051M/MG77052W",
+        "goodsVipPrice": 263,
+        "goodsTagPrice": 658,
+        "goodsRebateprice": 78.8,
+        "rebatePoints": null,
+        "isOnshelves": null,
+        "cateName": null
+      },
+      {
+        "id": 29541,
+        "goodsPic": "http://club.xingzhuangmall.com:8001/p4/ShoppingMall/shop/2017/11/16/hot/1510813514678/8816-pic20160315113712.jpg",
+        "gbName": "PELLIOT/伯希和",
+        "goodsName": "PELLIOT/伯希和  皮肤衣女男 户外春超薄透气防晒衣服速干情侣皮肤风衣",
+        "goodsNo": "1784",
+        "goodsVipPrice": 179,
+        "goodsTagPrice": 599,
+        "goodsRebateprice": 28.64,
+        "rebatePoints": null,
+        "isOnshelves": null,
+        "cateName": null
+      },
+      {
+        "id": 50792,
+        "goodsPic": "http://club.xingzhuangmall.com:8001/p4/ShoppingMall/shop/2017/11/16/hot/1510820257213/7662-201704111601121.jpg",
+        "gbName": "PELLIOT/伯希和",
+        "goodsName": "PELLIOT/伯希和   速干透气轻薄亲肤防晒衣服   儿童款",
+        "goodsNo": "13721225",
+        "goodsVipPrice": 199,
+        "goodsTagPrice": 469,
+        "goodsRebateprice": 33.83,
+        "rebatePoints": null,
+        "isOnshelves": null,
+        "cateName": null
+      }
+    ]
+  }
+}

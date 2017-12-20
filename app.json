@@ -1,22 +1,46 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/category/category",
+    "pages/shoppingcart/shoppingcart",
+    "pages/personalcenter/personalcenter",
     "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "weixin",
+    "navigationBarTextStyle":"white"
   },
   "tabBar":{
+    "backgroundColor":"#fff",
+    "selectedColor":"#FDD000",
     "list":[
       {
-        "text":"首页"
-      },
-      {
-        "text":"分类"
-      }
-    ]
+      "pagePath":"pages/index/index",
+      "iconPath": "image/search/homepageno.png",
+      "selectedIconPath": "image/search/homepageyes.png",
+      "text":"首页"
+    },
+    {
+      "pagePath":"pages/category/category",
+      "iconPath": "image/search/homepagefenleino.png",
+      "selectedIconPath": "image/search/homepagefenleiyes.png",
+      "text":"分类"
+    },
+    {
+      "pagePath": "pages/shoppingcart/shoppingcart",
+      "iconPath": "image/search/homepagegouwucheno.png",
+      "selectedIconPath": "image/search/homepagegouwucheyes.png",
+      "text": "购物车"
+    },
+    {
+      "pagePath": "pages/personalcenter/personalcenter",
+      "iconPath": "image/search/homepagepersonalno.png",
+      "selectedIconPath": "image/search/homepagepersonalyes.png",
+      "text": "个人中心"
+    }
+    ],
+    "debug": true
   }
 }

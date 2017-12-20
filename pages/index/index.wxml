@@ -1,13 +1,163 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+<view>
+
+  <view class='search'>
+    <image src='../../image/search/wenhao.png' class='searchImg'></image><input placeholder="点击搜索" />
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+
+    <view class="pageHomeHead">
+      <text wx:for="{{pageHomeHeadList}}" wx:key="id"  class="{{item.isClick?'phhText':null}}" bindtap="clickpageHead" id="{{index}}">{{item.name}}</text>
+    </view>
+
+      <view style="margin-top:10rpx">
+          <swiper class="swiper-box" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">
+      <block wx:for="{{imgUrls}}" wx:key="*this">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" />
+        </swiper-item>
+      </block>
+    </swiper> 
+     </view>
+
+     <view class="pageHome_3">
+      <view class="pageHome_3_main" wx:for="{{pageHomeList_3}}" wx:key="*this">
+        <image src='../../image/search/icon1.png'></image>
+        <text>{{item}}</text>
+      </view>
+     </view>
+
+     <view class="pageHome_4">
+      <view wx:for="{{pageHomeList_4}}" wx:key="urlImg">
+      <navigator url="{{item.url}}" open-type="redirect" class="pageHome_4_main">
+        <image src='{{item.urlImg}}'></image>
+        <text>{{item.name}}</text>
+      </navigator>
+      </view>
+     </view>
+
+     <view class="pageHome_5">
+      <view class="pageHome_5_main">
+
+        <view class="pageHome_5_main_1"></view>
+        <text>行装头条</text>
+        <text style="margin-left:10rpx;color:#ccc">|</text>
+      </view>
+
+      <view>
+          <swiper class="swiper_container" vertical="true" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">
+      <block wx:for="{{pageHomeList_3}}" wx:key="*this">
+        <swiper-item>
+        <view class="swiper_item">【<text>活动</text>】<text style="color:#666">{{item}}</text></view>
+        </swiper-item>
+      </block>
+    </swiper> 
+     </view>
+
+     </view>
+
+    <view class="pageHome_6">
+
+      <view class="pageHome_6_up">
+        <text>场景推荐</text>
+        <view style="color:#666;font-size:28rpx">
+          <text style="margin-right:10rpx">查看更多</text>
+          <image style="width:10rpx;height:24rpx" src="../../image/search/iconRight.png"/>
+        </view>
+      </view>
+      
+      <scroll-view  scroll-x="true">
+        <view class="pageHome_6_down">
+          <view wx:for="{{pageHomeList_6}}" wx:key="id">
+            <navigator url="" open-type='navigate'>
+              <image src="{{item.urlImg}}"/>
+            </navigator>
+          </view>
+        </view>
+      </scroll-view>
+      <view style="width:90%;margin:20rpx auto;border-bottom:1rpx solid #ddd"></view>
+     
+
+    </view>
+
+    <view class="pageHome_7">
+
+      <view class="pageHome_6_up">
+        <text>品牌推荐</text>
+        <view style="color:#666;font-size:28rpx">
+          <text style="margin-right:10rpx">查看更多</text>
+          <image style="width:10rpx;height:24rpx" src="../../image/search/iconRight.png"/>
+        </view>
+      </view>
+      
+        <view class="pageHome_6_down">
+          <view wx:for="{{pageHomeList_7_1}}" wx:key="id">
+              <image style="width:152rpx;height:180rpx" src="{{item.urlImg}}"/>
+          </view>
+        </view>
+
+        <scroll-view  scroll-x="true">
+        <view style="display:flex;flex-wrap:nowrap;align-items:center;margin-left:20rpx;margin-top:10rpx">
+            
+            <view class="pageHome_7_down" wx:for="{{pageHomeList_7_goods}}" wx:key="id">
+            <navigator url="" open-type='navigate'>
+              <image src="{{item.goodsPic}}"/>
+              <view class="goodsCon">
+                <text class="goodsConText">{{item.goodsName}}</text>
+              </view>
+              <view style="margin-top:4rpx">
+                <text style="color:#333;font-size:30rpx;margin-right:10rpx">¥{{item.goodsVipPrice}}</text><text style="color:#999;font-size:22rpx;text-decoration:line-through">¥ {{item.goodsTagPrice}}</text>
+                <view class="action">
+                <text>秒杀</text>
+              </view>
+              </view>
+              </navigator>
+              
+            </view>
+
+          </view>
+        </scroll-view>
+      
+    </view>
+     <view style="width:90%;margin:20rpx auto;border-bottom:1rpx solid #ddd"></view>
+
+     <view class="pageHome_8">
+      <view class="pageHome_8_up">
+        <text>当季热卖</text>
+      </view>
+
+
+
+        <view class="pageHome_8_down">
+        <view>
+          <navigator>
+              <image src="http://img4.imgtn.bdimg.com/it/u=2522445075,1796630879&fm=27&gp=0.jpg" />
+          </navigator>
+          </view>
+        </view>
+     </view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<view style="width:100%;height:60rpx;background-color:#fff;margin-top:40rpx;"></view>
+    
+
+
 </view>
+
+
+
+
+
+
+
+
+

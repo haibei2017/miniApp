@@ -8,9 +8,9 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "1.6.6",
+	"libVersion": "1.7.0",
 	"appid": "wx97b3e5961576961e",
-	"projectname": "shop",
+	"projectname": "wechat",
 	"condition": {
 		"search": {
 			"current": -1,
